@@ -1,0 +1,29 @@
+.container {
+    padding: 1.5rem;
+    display: flex;
+}
+
+.logo {
+    display: flex;
+    align-items: center;
+}
+.logo>img {
+    width: 2.5rem;
+    height: 2.5rem;
+}
+.logo>span {
+    font-weight: 600;
+}
+
+.right{
+    display: flex;
+    gap: 2rem;
+    align-items: center;
+    justify-content: center;
+}
+
+.menu{
+    display: flex;
+    gap: 2rem;
+    font-weight: 500;
+}
