@@ -21,7 +21,9 @@ const Hero = () => {
         {/* center */}
         <div className={css.wrapper}>
             <div className={css.blueCircle}></div>
+
             <img src={HeroImg} alt="" width={600} />
+
             <div className={css.cart2}>
                 <RiShoppingBagFill/>
                 <div className={css.signup}>
@@ -31,8 +33,22 @@ const Hero = () => {
                     <BsArrowRight/>
                 </div>
             </div>
+
         </div>
+
         {/* right side */}
+        <div className={css.h_sides}>
+            <div className={css.traffic}>
+                <span>1.5m</span>
+                <span>Monthly Traffic</span>
+            </div>
+
+            <div className={css.customers}>
+                <span>100k</span>
+                <span>Happy Customers</span>
+            </div>
+        </div>
+
     </div>
   )
 }
