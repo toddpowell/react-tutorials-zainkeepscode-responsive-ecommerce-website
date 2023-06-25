@@ -18,7 +18,7 @@ const Slider = () => {
             navigation={true}
             className='mySwiper'
             loopFillGroupWithBlank={true}
-            slidesPerView={3} spacesBetween={40} slidesPerGroup={1} loop={true}>
+            slidesPerView={3} spaceBetween={40} slidesPerGroup={1} loop={true}>
             {SliderProducts.map((slide, i) => (
                <SwiperSlide>
                     <div className="left-s">

@@ -61,3 +61,12 @@
     width: max-content;
     border-radius: 15px;
 }
+
+.img-p{
+    transform: rotate(-20deg);
+    position: absolute; /* allows us to move within the block */
+    right: 0;
+    width: 40%;
+    height: 100%;
+    bottom: -20%;
+}
