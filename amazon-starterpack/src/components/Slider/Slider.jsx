@@ -6,6 +6,8 @@ import 'swiper/css';
 import 'swiper/css/pagination';
 import 'swiper/css/navigation';
 
+import './Slider.css';
+
 import {SliderProducts} from '../../data/products';
 
 const Slider = () => {
