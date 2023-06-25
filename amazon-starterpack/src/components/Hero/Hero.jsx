@@ -28,10 +28,11 @@ const Hero = () => {
                 <RiShoppingBagFill/>
                 <div className={css.signup}>
                     <span>Best Signup Offers</span>
+                    <div>
+                        <BsArrowRight/>
+                    </div>
                 </div>
-                <div>
-                    <BsArrowRight/>
-                </div>
+
             </div>
 
         </div>
