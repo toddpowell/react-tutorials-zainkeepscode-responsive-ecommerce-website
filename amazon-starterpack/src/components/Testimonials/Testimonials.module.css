@@ -40,3 +40,17 @@
 .wrapper>:nth-child(3){
     text-align: right;
 }
+
+.reviews{
+    font-size: 2rem;
+    font-weight: bold;
+    text-transform: uppercase;
+}
+
+.carousel{
+    width: 100%;
+}
+
+.tCarousel{
+     padding: 2rem;
+}
