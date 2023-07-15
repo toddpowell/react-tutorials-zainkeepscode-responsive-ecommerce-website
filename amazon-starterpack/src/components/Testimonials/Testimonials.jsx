@@ -34,10 +34,10 @@ const Testimonials = () => {
                     TestimonialsData.map((testimonial, i) => (
                         <SwiperSlide>
                             <div className={css.testimonial}>
-                                <img src={testimonial.img} alt="" />
+                                <img src={testimonial.image} alt="" />
                                 <span>{testimonial.comment}</span>
                                 <hr/>
-                                <span className={testimonial.name}></span>
+                                <span>{testimonial.name}</span>
                             </div>
                         </SwiperSlide>
                     ))
